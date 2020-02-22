@@ -1,0 +1,548 @@
+@font-face {
+    font-family: 'BodoniFLF-bold';
+    src: url('../../res/bodoni/BodoniFLF-Bold.woff');
+}
+
+.title1 {
+    font-family: 'BodoniFLF-bold';
+    font-size: 50px
+}
+
+.title2 {
+    font-family: 'BodoniFLF-bold';
+    font-size: 70px
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Malgun Gothic';
+    font-color: black;
+}
+
+li {
+    list-style: none;
+}
+
+#main-header {
+    padding: 40px 50px;
+}
+
+.pull-left {
+    float: left;
+    position: relative;
+    padding-bottom: 50px;
+    margin-top: -20px;
+}
+
+.pull-right {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+#main-header {
+    padding: 40px 50px;
+}
+
+#main-section {
+    margin: 0px 0px 0px 0px
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-title1 {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 5px 47px 5px 47px;
+}
+
+
+#copyright {
+    margin-top: -30px
+}
+
+.menu-title2 {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 5px 30px 5px 27px
+}
+
+.menu-title3 {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 5px 30px 5px 27px
+}
+
+.menu-title4 {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 5px 30px 5px 30px
+}
+
+.menu-title5 {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 5px 56.41px 5px 56.41px
+}
+
+.menu-title6 {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 5px 56.41px 5px 56.41px
+}
+
+.menu-title7 {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 5px 7px 5px 15px
+}
+
+#main-navigation {
+    margin-left: 450px;
+    margin-right: 430px;
+    border-top: 1px solid 00 FF0000;
+    border-bottom: 1px solid 00 FF0000;
+    margin-bottom: 20px;
+    margin-top: 3px;
+    height: 40px;
+}
+
+.outer-menu-item {
+    float: left;
+    position: relative;
+    padding-top: 29px;
+    cursor: pointer;
+	margin-top: 17px;
+    padding-bottom: 29px;
+    transition: all 0.8s, color 0.3s 0.3s;
+}
+
+.outer-menu-item:hover {
+    box-shadow: 0 80px 0 0 rgba(0, 0, 0, 0.25) inset,
+    0 -80px 0 0 rgba(0, 0, 0, 0.25) inset;
+}
+
+html {
+    background-image: url('../../res/img/film strip.jpg');
+    background-repeat: no-repeat;
+    background-position: 440px 195px
+}
+
+.quote {
+    text-align: center;
+    font-size: 30px;
+    margin: 0px;
+}
+
+.person {
+    text-align: center;
+    font-size: 20px;
+    margin: 0px;
+    font-weight: 100;
+}
+
+#lumere {
+    float: left;
+    margin: 0px 30px 10px 0px
+}
+
+#griffith {
+    float: right;
+    margin: 0px 0px 30px 30px
+}
+
+#moon {
+    float: left;
+    margin: 0px 30px 10px 0px
+}
+
+#category {
+    margin: 0px 10px 0px -120px;
+    width: 100px;
+    height: 40px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: black;
+    color:white;
+}
+
+#category:hover {
+    background-color: red;
+}
+
+.aside-genre li a {
+    color: white;
+}
+
+.aside-genre {
+    margin-top: -507px
+}
+
+.history-main {
+    margin-top: -103px;
+}
+
+.history-main li a {
+    color: white;
+}
+
+.aside-1890 {
+    margin-top: -463px
+}
+
+.aside-1890 li a {
+    color: white;
+}
+
+.aside-1900 {
+    margin-top: -443px;
+}
+
+.aside-1900 li a {
+    color: white;
+}
+
+.aside-1910 {
+    margin-top: -166px;
+}
+
+.aside-1910 li a {
+    color: white;
+}
+
+.aside-1920 {
+    margin-top: -315px;
+}
+
+.aside-1920 li a {
+    color: white;
+}
+
+.aside-1930 {
+    margin-top: -634px;
+}
+
+.aside-1930 li a {
+    color: white;
+}
+
+.aside-1940 {
+    margin-top: -592px;
+}
+
+.aside-1940 li a {
+    color: white;
+}
+
+.aside-1950 {
+    margin-top: -592px;
+}
+
+.aside-1950 li a {
+    color: white;
+}
+
+.aside-1960 {
+    margin-top: -463px;
+}
+
+.aside-1960 li a {
+    color: white;
+}
+
+.aside-1970 {
+    margin-top: -463px;
+}
+
+.aside-1970 li a {
+    color: white;
+}
+
+.aside-present {
+    margin-top: -209px;
+}
+
+.aside-present li a {
+    color: white;
+}
+
+.aside-western {
+    margin-top: -612px;
+    margin-bottom: 50px
+}
+
+.aside-western li a {
+    color: white;
+}
+
+.aside-horror {
+    margin-top: -995px;
+    margin-bottom: 430px;
+}
+
+.aside-horror li a {
+    color: white;
+}
+
+.aside-gangster {
+    margin-top: -697px;
+    margin-bottom: 140px
+}
+
+.aside-gangster li a {
+    color: white;
+}
+
+.aside-sf {
+    margin-top: -888px;
+    margin-bottom: 330px
+}
+
+.aside-sf li a {
+    color: white;
+}
+
+.aside-musical {
+    margin-top: -399px;
+}
+
+.aside-musical li a {
+    color: white;
+}
+
+.aside-romance {
+    margin-top: -505px;
+}
+
+.aside-romance li a {
+    color: white;
+}
+
+.aside-war {
+    margin-top: -635px;
+    margin-bottom: 70px
+}
+
+.aside-war li a {
+    color: white;
+}
+
+.aside-animation {
+    margin-top: -888px;
+    margin-bottom: 330px
+}
+
+.aside-animation li a {
+    color: white;
+}
+
+.aside-adventure {
+    margin-top: -505px;
+}
+
+.aside-adventure li a {
+    color: white;
+}
+
+.aside-ㄱ {
+    margin-top: -1777px;
+    margin-bottom: 890px
+}
+
+.aside-ㄱ li a {
+    color: white;
+}
+
+.aside-ㄴ {
+    margin-top: -390px;
+}
+
+.aside-ㄴ li a {
+    color: white;
+}
+
+.aside-ㄷ {
+    margin-top: -2210px;
+    margin-bottom: 1330px
+}
+
+.aside-ㄷ li a {
+    color: white;
+}
+
+.aside-ㄹ {
+    margin-top: -998px;
+    margin-bottom: 120px
+}
+
+.aside-ㄹ li a {
+    color: white;
+}
+
+.aside-ㅁ {
+    margin-top: -1971px;
+    margin-bottom: 1080px
+}
+
+.aside-ㅁ li a {
+    color: white;
+}
+
+.aside-ㅂ {
+    margin-top: -1712px;
+    margin-bottom: 830px
+}
+
+.aside-ㅂ li a {
+    color: white;
+}
+
+.aside-ㅅ {
+    margin-top: -4071px;
+    margin-bottom: 3177px
+}
+
+.aside-ㅅ li a {
+    color: white;
+}
+
+.aside-ㅇ {
+    margin-top: -3726px;
+    margin-bottom: 2840px
+}
+
+.aside-ㅇ li a {
+    color: white;
+}
+
+.aside-ㅈ {
+    margin-top: -2665px;
+    margin-bottom: 1780px
+}
+
+.aside-ㅈ li a {
+    color: white;
+}
+
+.aside-ㅊ {
+    margin-top: -1060px;
+    margin-bottom: 180px
+}
+
+.aside-ㅊ li a {
+    color: white;
+}
+
+.aside-ㅋ {
+    margin-top: -1190px;
+    margin-bottom: 300px
+}
+
+.aside-ㅋ li a {
+    color: white;
+}
+
+.aside-ㅌ {
+    margin-top: -390px;
+}
+
+.aside-ㅌ li a {
+    color: white;
+}
+
+.aside-ㅍ {
+    margin-top: -2640px;
+    margin-bottom: 1760px
+}
+
+.aside-ㅍ li a {
+    color: white;
+}
+
+.aside-ㅎ {
+    margin-top: -455px;
+}
+
+.aside-ㅎ li a {
+    color: white;
+}
+
+.aside-dict {
+    margin-top: -60px;
+}
+
+.aside-dict li a {
+    color: white;
+}
+
+#words {
+    border-top: 1px solid #C8C8C8;
+    padding: 20px
+}
+
+#ctrlf {
+    font-weight: 500
+}
+
+#tech {
+    height: 195px
+}
+
+#theater {
+    margin: -10px 30px 0px 0px
+}
+
+.aside-etc {
+    margin-top: -3436px;
+    margin-bottom: 3270px
+}
+
+.aside-etc li a {
+    color: white;
+}
+
+.aside-major {
+    margin-top: -1576px;
+    margin-bottom: 1450px
+}
+
+.aside-major li a {
+    color: white;
+}
+
+
+#hisgen {
+    float: right;
+    margin: 0px 0px 10px 30px
+}
+
+
+#categories{
+    float: left;
+    margin-bottom: 100px;
+}

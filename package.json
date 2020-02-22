@@ -1,0 +1,65 @@
+{
+  "name": "blogducinema",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.28",
+    "@types/react": "^16.9.21",
+    "@types/react-dom": "^16.9.5",
+    "axios": "^0.19.2",
+    "babel-polyfill": "^6.26.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "react": "^16.12.0",
+    "react-addons-update": "^15.6.2",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.4.0",
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "start": "set PORT=7080 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
+    "dev": "parcel src/html/blogducinema.html --port 7080"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "http://jkjan.github.io/BlogDuCinema",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "gh-pages": "^2.2.0",
+    "parcel-bundler": "^1.12.4"
+  },
+  "babel": {
+    "plugins": [
+      [
+        "@babel/plugin-proposal-class-properties",
+        {
+          "loose": true
+        }
+      ]
+    ]
+  }
+}
