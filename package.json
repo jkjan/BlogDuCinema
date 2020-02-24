@@ -1,6 +1,7 @@
 {
   "name": "blogducinema",
   "version": "0.1.0",
+  "main": "src/html/blogducinema.html",
   "private": true,
   "engines": {
     "npm": "6.13.4",
@@ -27,7 +28,7 @@
     "typescript": "^3.7.5"
   },
   "scripts": {
-    "start": "parcel src/html/blogducinema.html --port 7080",
+    "start": "parcel build src/html/blogducinema.html --public-url ./",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
