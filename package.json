@@ -29,7 +29,7 @@
   },
   "scripts": {
     "start": "parcel src/html/blogducinema.html --port 7080",
-    "build": "parcel build src/html/blogducinema.html --public-url BlogDuCinema",
+    "build": "parcel build src/html/blogducinema.html --public-url ./",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "rm -rf dist && parcel build blogducinema.html --public--url /blogducinema",
