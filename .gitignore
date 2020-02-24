@@ -24,8 +24,3 @@ yarn-debug.log*
 yarn-error.log*
 
 #resources
-/res
-
-
-*.mp4
-*.jpg
