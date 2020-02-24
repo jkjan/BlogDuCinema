@@ -27,13 +27,12 @@
     "typescript": "^3.7.5"
   },
   "scripts": {
-    "start": "set PORT=7080 && react-scripts start",
+    "start": "parcel src/html/blogducinema.html --port 7080",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
-    "dev": "parcel src/html/blogducinema.html --port 7080"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
