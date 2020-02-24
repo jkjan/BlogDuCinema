@@ -2,6 +2,10 @@
   "name": "blogducinema",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.13.4",
+    "node": "12.14.1"
+  },
   "dependencies": {
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@testing-library/jest-dom": "^4.2.4",
@@ -15,6 +19,7 @@
     "babel-polyfill": "^6.26.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "heroku": "^7.38.2",
     "react": "^16.12.0",
     "react-addons-update": "^15.6.2",
     "react-dom": "^16.12.0",
